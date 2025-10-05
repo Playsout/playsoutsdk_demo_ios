@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885149082E881D9300635DEC /* app_links.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148322E880BC300635DEC /* app_links.xcframework */; };
+		885149092E881D9300635DEC /* app_links.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148322E880BC300635DEC /* app_links.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851490A2E881D9300635DEC /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481D2E880BC200635DEC /* App.xcframework */; };
+		8851490B2E881D9300635DEC /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481D2E880BC200635DEC /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851490C2E881D9300635DEC /* audioplayers_darwin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148352E880BC300635DEC /* audioplayers_darwin.xcframework */; };
+		8851490D2E881D9300635DEC /* audioplayers_darwin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148352E880BC300635DEC /* audioplayers_darwin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851490E2E881D9300635DEC /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481E2E880BC200635DEC /* device_info_plus.xcframework */; };
+		8851490F2E881D9300635DEC /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481E2E880BC200635DEC /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149102E881D9300635DEC /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148262E880BC300635DEC /* FBLPromises.xcframework */; };
+		885149112E881D9300635DEC /* FBLPromises.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148262E880BC300635DEC /* FBLPromises.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149122E881D9300635DEC /* firebase_analytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148332E880BC300635DEC /* firebase_analytics.xcframework */; };
+		885149142E881D9300635DEC /* firebase_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148412E880BC300635DEC /* firebase_core.xcframework */; };
+		885149162E881D9300635DEC /* firebase_crashlytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148212E880BC200635DEC /* firebase_crashlytics.xcframework */; };
+		885149262E881D9300635DEC /* flutter_image_api.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148252E880BC300635DEC /* flutter_image_api.xcframework */; };
+		885149272E881D9300635DEC /* flutter_image_api.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148252E880BC300635DEC /* flutter_image_api.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149282E881D9300635DEC /* flutter_js.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148222E880BC200635DEC /* flutter_js.xcframework */; };
+		885149292E881D9300635DEC /* flutter_js.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148222E880BC200635DEC /* flutter_js.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851492A2E881D9300635DEC /* flutter_udid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482A2E880BC300635DEC /* flutter_udid.xcframework */; };
+		8851492B2E881D9300635DEC /* flutter_udid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482A2E880BC300635DEC /* flutter_udid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851492C2E881D9300635DEC /* flutter_webgl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482B2E880BC300635DEC /* flutter_webgl.xcframework */; };
+		8851492D2E881D9300635DEC /* flutter_webgl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482B2E880BC300635DEC /* flutter_webgl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851492E2E881D9300635DEC /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148292E880BC300635DEC /* Flutter.xcframework */; };
+		8851492F2E881D9300635DEC /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148292E880BC300635DEC /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149322E881D9300635DEC /* Google_Mobile_Ads_SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482C2E880BC300635DEC /* Google_Mobile_Ads_SDK.xcframework */; };
+		885149342E881D9300635DEC /* google_mobile_ads.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483C2E880BC300635DEC /* google_mobile_ads.xcframework */; };
+		885149362E881D9300635DEC /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148282E880BC300635DEC /* GoogleDataTransport.xcframework */; };
+		885149372E881D9300635DEC /* GoogleDataTransport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148282E880BC300635DEC /* GoogleDataTransport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149382E881D9300635DEC /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481F2E880BC200635DEC /* GoogleUtilities.xcframework */; };
+		885149392E881D9300635DEC /* GoogleUtilities.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481F2E880BC200635DEC /* GoogleUtilities.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851493A2E881D9300635DEC /* image_picker_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482D2E880BC300635DEC /* image_picker_ios.xcframework */; };
+		8851493B2E881D9300635DEC /* image_picker_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482D2E880BC300635DEC /* image_picker_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851493C2E881D9300635DEC /* in_app_purchase_storekit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148362E880BC300635DEC /* in_app_purchase_storekit.xcframework */; };
+		8851493D2E881D9300635DEC /* in_app_purchase_storekit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148362E880BC300635DEC /* in_app_purchase_storekit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851493E2E881D9300635DEC /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483B2E880BC300635DEC /* nanopb.xcframework */; };
+		8851493F2E881D9400635DEC /* nanopb.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483B2E880BC300635DEC /* nanopb.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149402E881D9400635DEC /* package_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148422E880BC300635DEC /* package_info_plus.xcframework */; };
+		885149412E881D9400635DEC /* package_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148422E880BC300635DEC /* package_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149422E881D9400635DEC /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483E2E880BC300635DEC /* path_provider_foundation.xcframework */; };
+		885149432E881D9400635DEC /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483E2E880BC300635DEC /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149442E881D9400635DEC /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483F2E880BC300635DEC /* permission_handler_apple.xcframework */; };
+		885149452E881D9400635DEC /* permission_handler_apple.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483F2E880BC300635DEC /* permission_handler_apple.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149462E881D9400635DEC /* Promises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483A2E880BC300635DEC /* Promises.xcframework */; };
+		885149472E881D9400635DEC /* Promises.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483A2E880BC300635DEC /* Promises.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149482E881D9400635DEC /* SAMKeychain.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148342E880BC300635DEC /* SAMKeychain.xcframework */; };
+		885149492E881D9400635DEC /* SAMKeychain.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148342E880BC300635DEC /* SAMKeychain.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851494A2E881D9400635DEC /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482E2E880BC300635DEC /* shared_preferences_foundation.xcframework */; };
+		8851494B2E881D9400635DEC /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482E2E880BC300635DEC /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851494C2E881D9400635DEC /* sqflite_darwin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148372E880BC300635DEC /* sqflite_darwin.xcframework */; };
+		8851494D2E881D9400635DEC /* sqflite_darwin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148372E880BC300635DEC /* sqflite_darwin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851494E2E881D9400635DEC /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148302E880BC300635DEC /* url_launcher_ios.xcframework */; };
+		8851494F2E881D9400635DEC /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148302E880BC300635DEC /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149502E881D9400635DEC /* vibration.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148232E880BC200635DEC /* vibration.xcframework */; };
+		885149512E881D9400635DEC /* vibration.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148232E880BC200635DEC /* vibration.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149522E881D9400635DEC /* wakelock_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148392E880BC300635DEC /* wakelock_plus.xcframework */; };
+		885149532E881D9400635DEC /* wakelock_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148392E880BC300635DEC /* wakelock_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885149542E881D9400635DEC /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482F2E880BC300635DEC /* webview_flutter_wkwebview.xcframework */; };
+		885149552E881D9400635DEC /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851482F2E880BC300635DEC /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851495B2E881FCE00635DEC /* libEGL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885149572E881EC100635DEC /* libEGL.xcframework */; };
+		8851495C2E881FCE00635DEC /* libEGL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885149572E881EC100635DEC /* libEGL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851495D2E881FD000635DEC /* libGLESv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885149582E881EC100635DEC /* libGLESv2.xcframework */; };
+		8851495E2E881FD000635DEC /* libGLESv2.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885149582E881EC100635DEC /* libGLESv2.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163782E88BE8C00F7D39B /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148202E880BC200635DEC /* FlutterPluginRegistrant.xcframework */; };
+		8851637A2E88C8A900F7D39B /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483D2E880BC300635DEC /* FirebaseCore.xcframework */; };
+		8851637B2E88C8A900F7D39B /* FirebaseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851483D2E880BC300635DEC /* FirebaseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851637C2E88C8B800F7D39B /* FirebaseCoreExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148312E880BC300635DEC /* FirebaseCoreExtension.xcframework */; };
+		8851637D2E88C8B800F7D39B /* FirebaseCoreExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148312E880BC300635DEC /* FirebaseCoreExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8851637E2E88C8C400F7D39B /* FirebaseCoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148242E880BC200635DEC /* FirebaseCoreInternal.xcframework */; };
+		8851637F2E88C8C400F7D39B /* FirebaseCoreInternal.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148242E880BC200635DEC /* FirebaseCoreInternal.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163802E88C8D400F7D39B /* FirebaseCrashlytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481C2E880BC200635DEC /* FirebaseCrashlytics.xcframework */; };
+		885163812E88C8D400F7D39B /* FirebaseCrashlytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8851481C2E880BC200635DEC /* FirebaseCrashlytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163822E88C8DF00F7D39B /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148272E880BC300635DEC /* FirebaseInstallations.xcframework */; };
+		885163832E88C8DF00F7D39B /* FirebaseInstallations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148272E880BC300635DEC /* FirebaseInstallations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163842E88C8EB00F7D39B /* FirebaseRemoteConfigInterop.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148382E880BC300635DEC /* FirebaseRemoteConfigInterop.xcframework */; };
+		885163852E88C8EB00F7D39B /* FirebaseRemoteConfigInterop.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148382E880BC300635DEC /* FirebaseRemoteConfigInterop.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163862E88C8F800F7D39B /* FirebaseSessions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885148402E880BC300635DEC /* FirebaseSessions.xcframework */; };
+		885163872E88C8F800F7D39B /* FirebaseSessions.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885148402E880BC300635DEC /* FirebaseSessions.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885163912E897C1E00F7D39B /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885163902E897C1E00F7D39B /* FirebaseAnalytics.xcframework */; };
+		885163952E897DAE00F7D39B /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885163932E897DAE00F7D39B /* GoogleAppMeasurement.xcframework */; };
+		885163972E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885163942E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		8851639A2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */; };
+		8851639B2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885ED98B2E8D708F00D72C4B /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851638C2E897A1800F7D39B /* GoogleMobileAds.xcframework */; };
+		886400562E90CAD5002CEA49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886400552E90CAD5002CEA49 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885147FE2E880AD800635DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885147DF2E880AD700635DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885147E62E880AD800635DEC;
+			remoteInfo = playsoutsdkdemo;
+		};
+		885148082E880AD800635DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885147DF2E880AD700635DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885147E62E880AD800635DEC;
+			remoteInfo = playsoutsdkdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		885149562E881D9400635DEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				885163872E88C8F800F7D39B /* FirebaseSessions.xcframework in Embed Frameworks */,
+				885163852E88C8EB00F7D39B /* FirebaseRemoteConfigInterop.xcframework in Embed Frameworks */,
+				885163812E88C8D400F7D39B /* FirebaseCrashlytics.xcframework in Embed Frameworks */,
+				885149392E881D9300635DEC /* GoogleUtilities.xcframework in Embed Frameworks */,
+				8851492F2E881D9300635DEC /* Flutter.xcframework in Embed Frameworks */,
+				885149552E881D9400635DEC /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
+				8851493B2E881D9300635DEC /* image_picker_ios.xcframework in Embed Frameworks */,
+				8851494B2E881D9400635DEC /* shared_preferences_foundation.xcframework in Embed Frameworks */,
+				8851637D2E88C8B800F7D39B /* FirebaseCoreExtension.xcframework in Embed Frameworks */,
+				8851490D2E881D9300635DEC /* audioplayers_darwin.xcframework in Embed Frameworks */,
+				885149272E881D9300635DEC /* flutter_image_api.xcframework in Embed Frameworks */,
+				885149492E881D9400635DEC /* SAMKeychain.xcframework in Embed Frameworks */,
+				8851637B2E88C8A900F7D39B /* FirebaseCore.xcframework in Embed Frameworks */,
+				885163832E88C8DF00F7D39B /* FirebaseInstallations.xcframework in Embed Frameworks */,
+				8851493D2E881D9300635DEC /* in_app_purchase_storekit.xcframework in Embed Frameworks */,
+				8851492B2E881D9300635DEC /* flutter_udid.xcframework in Embed Frameworks */,
+				8851490F2E881D9300635DEC /* device_info_plus.xcframework in Embed Frameworks */,
+				885149292E881D9300635DEC /* flutter_js.xcframework in Embed Frameworks */,
+				885149412E881D9400635DEC /* package_info_plus.xcframework in Embed Frameworks */,
+				885149532E881D9400635DEC /* wakelock_plus.xcframework in Embed Frameworks */,
+				885149092E881D9300635DEC /* app_links.xcframework in Embed Frameworks */,
+				8851637F2E88C8C400F7D39B /* FirebaseCoreInternal.xcframework in Embed Frameworks */,
+				885149372E881D9300635DEC /* GoogleDataTransport.xcframework in Embed Frameworks */,
+				885149112E881D9300635DEC /* FBLPromises.xcframework in Embed Frameworks */,
+				8851492D2E881D9300635DEC /* flutter_webgl.xcframework in Embed Frameworks */,
+				8851495E2E881FD000635DEC /* libGLESv2.xcframework in Embed Frameworks */,
+				8851495C2E881FCE00635DEC /* libEGL.xcframework in Embed Frameworks */,
+				8851490B2E881D9300635DEC /* App.xcframework in Embed Frameworks */,
+				885149452E881D9400635DEC /* permission_handler_apple.xcframework in Embed Frameworks */,
+				885149472E881D9400635DEC /* Promises.xcframework in Embed Frameworks */,
+				8851494D2E881D9400635DEC /* sqflite_darwin.xcframework in Embed Frameworks */,
+				8851494F2E881D9400635DEC /* url_launcher_ios.xcframework in Embed Frameworks */,
+				885149432E881D9400635DEC /* path_provider_foundation.xcframework in Embed Frameworks */,
+				8851493F2E881D9400635DEC /* nanopb.xcframework in Embed Frameworks */,
+				8851639B2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Embed Frameworks */,
+				885149512E881D9400635DEC /* vibration.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		885147E72E880AD800635DEC /* playsoutsdkdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playsoutsdkdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885147FD2E880AD800635DEC /* playsoutsdkdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playsoutsdkdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885148072E880AD800635DEC /* playsoutsdkdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playsoutsdkdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8851481C2E880BC200635DEC /* FirebaseCrashlytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCrashlytics.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseCrashlytics.xcframework"; sourceTree = "<group>"; };
+		8851481D2E880BC200635DEC /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/App.xcframework"; sourceTree = "<group>"; };
+		8851481E2E880BC200635DEC /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = device_info_plus.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/device_info_plus.xcframework"; sourceTree = "<group>"; };
+		8851481F2E880BC200635DEC /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleUtilities.xcframework"; sourceTree = "<group>"; };
+		885148202E880BC200635DEC /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
+		885148212E880BC200635DEC /* firebase_crashlytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = firebase_crashlytics.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/firebase_crashlytics.xcframework"; sourceTree = "<group>"; };
+		885148222E880BC200635DEC /* flutter_js.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_js.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/flutter_js.xcframework"; sourceTree = "<group>"; };
+		885148232E880BC200635DEC /* vibration.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = vibration.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/vibration.xcframework"; sourceTree = "<group>"; };
+		885148242E880BC200635DEC /* FirebaseCoreInternal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreInternal.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseCoreInternal.xcframework"; sourceTree = "<group>"; };
+		885148252E880BC300635DEC /* flutter_image_api.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_image_api.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/flutter_image_api.xcframework"; sourceTree = "<group>"; };
+		885148262E880BC300635DEC /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FBLPromises.xcframework"; sourceTree = "<group>"; };
+		885148272E880BC300635DEC /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseInstallations.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseInstallations.xcframework"; sourceTree = "<group>"; };
+		885148282E880BC300635DEC /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleDataTransport.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleDataTransport.xcframework"; sourceTree = "<group>"; };
+		885148292E880BC300635DEC /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/Flutter.xcframework"; sourceTree = "<group>"; };
+		8851482A2E880BC300635DEC /* flutter_udid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_udid.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/flutter_udid.xcframework"; sourceTree = "<group>"; };
+		8851482B2E880BC300635DEC /* flutter_webgl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_webgl.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/flutter_webgl.xcframework"; sourceTree = "<group>"; };
+		8851482C2E880BC300635DEC /* Google_Mobile_Ads_SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Google_Mobile_Ads_SDK.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/Google_Mobile_Ads_SDK.xcframework"; sourceTree = "<group>"; };
+		8851482D2E880BC300635DEC /* image_picker_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = image_picker_ios.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/image_picker_ios.xcframework"; sourceTree = "<group>"; };
+		8851482E2E880BC300635DEC /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/shared_preferences_foundation.xcframework"; sourceTree = "<group>"; };
+		8851482F2E880BC300635DEC /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = webview_flutter_wkwebview.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/webview_flutter_wkwebview.xcframework"; sourceTree = "<group>"; };
+		885148302E880BC300635DEC /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/url_launcher_ios.xcframework"; sourceTree = "<group>"; };
+		885148312E880BC300635DEC /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreExtension.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseCoreExtension.xcframework"; sourceTree = "<group>"; };
+		885148322E880BC300635DEC /* app_links.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = app_links.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/app_links.xcframework"; sourceTree = "<group>"; };
+		885148332E880BC300635DEC /* firebase_analytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = firebase_analytics.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/firebase_analytics.xcframework"; sourceTree = "<group>"; };
+		885148342E880BC300635DEC /* SAMKeychain.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAMKeychain.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/SAMKeychain.xcframework"; sourceTree = "<group>"; };
+		885148352E880BC300635DEC /* audioplayers_darwin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = audioplayers_darwin.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/audioplayers_darwin.xcframework"; sourceTree = "<group>"; };
+		885148362E880BC300635DEC /* in_app_purchase_storekit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = in_app_purchase_storekit.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/in_app_purchase_storekit.xcframework"; sourceTree = "<group>"; };
+		885148372E880BC300635DEC /* sqflite_darwin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite_darwin.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/sqflite_darwin.xcframework"; sourceTree = "<group>"; };
+		885148382E880BC300635DEC /* FirebaseRemoteConfigInterop.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseRemoteConfigInterop.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseRemoteConfigInterop.xcframework"; sourceTree = "<group>"; };
+		885148392E880BC300635DEC /* wakelock_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = wakelock_plus.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/wakelock_plus.xcframework"; sourceTree = "<group>"; };
+		8851483A2E880BC300635DEC /* Promises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Promises.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/Promises.xcframework"; sourceTree = "<group>"; };
+		8851483B2E880BC300635DEC /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/nanopb.xcframework"; sourceTree = "<group>"; };
+		8851483C2E880BC300635DEC /* google_mobile_ads.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = google_mobile_ads.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/google_mobile_ads.xcframework"; sourceTree = "<group>"; };
+		8851483D2E880BC300635DEC /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCore.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseCore.xcframework"; sourceTree = "<group>"; };
+		8851483E2E880BC300635DEC /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/path_provider_foundation.xcframework"; sourceTree = "<group>"; };
+		8851483F2E880BC300635DEC /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/permission_handler_apple.xcframework"; sourceTree = "<group>"; };
+		885148402E880BC300635DEC /* FirebaseSessions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseSessions.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseSessions.xcframework"; sourceTree = "<group>"; };
+		885148412E880BC300635DEC /* firebase_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = firebase_core.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/firebase_core.xcframework"; sourceTree = "<group>"; };
+		885148422E880BC300635DEC /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = package_info_plus.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/package_info_plus.xcframework"; sourceTree = "<group>"; };
+		885149572E881EC100635DEC /* libEGL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libEGL.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/libEGL.xcframework"; sourceTree = "<group>"; };
+		885149582E881EC100635DEC /* libGLESv2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libGLESv2.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/libGLESv2.xcframework"; sourceTree = "<group>"; };
+		885163882E88DD9E00F7D39B /* Google_Mobile_Ads_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Google_Mobile_Ads_SDK.framework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/Google_Mobile_Ads_SDK.xcframework/ios-arm64_x86_64-simulator/Google_Mobile_Ads_SDK.framework"; sourceTree = "<group>"; };
+		8851638A2E88DDD400F7D39B /* google_mobile_ads.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = google_mobile_ads.framework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/google_mobile_ads.xcframework/ios-arm64_x86_64-simulator/google_mobile_ads.framework"; sourceTree = "<group>"; };
+		8851638C2E897A1800F7D39B /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		885163902E897C1E00F7D39B /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/FirebaseAnalytics.xcframework"; sourceTree = "<group>"; };
+		885163932E897DAE00F7D39B /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleAppMeasurement.xcframework"; sourceTree = "<group>"; };
+		885163942E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleAppMeasurementIdentitySupport.xcframework"; sourceTree = "<group>"; };
+		885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/UserMessagingPlatform.xcframework"; sourceTree = "<group>"; };
+		886400552E90CAD5002CEA49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8851480F2E880AD800635DEC /* Exceptions for "playsoutsdkdemo" folder in "playsoutsdkdemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 885147E62E880AD800635DEC /* playsoutsdkdemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		885147E92E880AD800635DEC /* playsoutsdkdemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8851480F2E880AD800635DEC /* Exceptions for "playsoutsdkdemo" folder in "playsoutsdkdemo" target */,
+			);
+			path = playsoutsdkdemo;
+			sourceTree = "<group>";
+		};
+		885148002E880AD800635DEC /* playsoutsdkdemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = playsoutsdkdemoTests;
+			sourceTree = "<group>";
+		};
+		8851480A2E880AD800635DEC /* playsoutsdkdemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = playsoutsdkdemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885147E42E880AD800635DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885149382E881D9300635DEC /* GoogleUtilities.xcframework in Frameworks */,
+				8851492E2E881D9300635DEC /* Flutter.xcframework in Frameworks */,
+				885163782E88BE8C00F7D39B /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				885163822E88C8DF00F7D39B /* FirebaseInstallations.xcframework in Frameworks */,
+				885149162E881D9300635DEC /* firebase_crashlytics.xcframework in Frameworks */,
+				885149542E881D9400635DEC /* webview_flutter_wkwebview.xcframework in Frameworks */,
+				8851493A2E881D9300635DEC /* image_picker_ios.xcframework in Frameworks */,
+				8851494A2E881D9400635DEC /* shared_preferences_foundation.xcframework in Frameworks */,
+				885163842E88C8EB00F7D39B /* FirebaseRemoteConfigInterop.xcframework in Frameworks */,
+				885149142E881D9300635DEC /* firebase_core.xcframework in Frameworks */,
+				8851490C2E881D9300635DEC /* audioplayers_darwin.xcframework in Frameworks */,
+				885149262E881D9300635DEC /* flutter_image_api.xcframework in Frameworks */,
+				885149482E881D9400635DEC /* SAMKeychain.xcframework in Frameworks */,
+				8851493C2E881D9300635DEC /* in_app_purchase_storekit.xcframework in Frameworks */,
+				885149342E881D9300635DEC /* google_mobile_ads.xcframework in Frameworks */,
+				8851495D2E881FD000635DEC /* libGLESv2.xcframework in Frameworks */,
+				8851637A2E88C8A900F7D39B /* FirebaseCore.xcframework in Frameworks */,
+				8851492A2E881D9300635DEC /* flutter_udid.xcframework in Frameworks */,
+				8851490E2E881D9300635DEC /* device_info_plus.xcframework in Frameworks */,
+				885149282E881D9300635DEC /* flutter_js.xcframework in Frameworks */,
+				885149402E881D9400635DEC /* package_info_plus.xcframework in Frameworks */,
+				885149322E881D9300635DEC /* Google_Mobile_Ads_SDK.xcframework in Frameworks */,
+				885149522E881D9400635DEC /* wakelock_plus.xcframework in Frameworks */,
+				8851495B2E881FCE00635DEC /* libEGL.xcframework in Frameworks */,
+				8851637C2E88C8B800F7D39B /* FirebaseCoreExtension.xcframework in Frameworks */,
+				885149082E881D9300635DEC /* app_links.xcframework in Frameworks */,
+				885163862E88C8F800F7D39B /* FirebaseSessions.xcframework in Frameworks */,
+				885149362E881D9300635DEC /* GoogleDataTransport.xcframework in Frameworks */,
+				8851639A2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Frameworks */,
+				885149122E881D9300635DEC /* firebase_analytics.xcframework in Frameworks */,
+				885149102E881D9300635DEC /* FBLPromises.xcframework in Frameworks */,
+				885163952E897DAE00F7D39B /* GoogleAppMeasurement.xcframework in Frameworks */,
+				885163972E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				8851637E2E88C8C400F7D39B /* FirebaseCoreInternal.xcframework in Frameworks */,
+				8851492C2E881D9300635DEC /* flutter_webgl.xcframework in Frameworks */,
+				885ED98B2E8D708F00D72C4B /* GoogleMobileAds.xcframework in Frameworks */,
+				8851490A2E881D9300635DEC /* App.xcframework in Frameworks */,
+				885149442E881D9400635DEC /* permission_handler_apple.xcframework in Frameworks */,
+				885149462E881D9400635DEC /* Promises.xcframework in Frameworks */,
+				8851494C2E881D9400635DEC /* sqflite_darwin.xcframework in Frameworks */,
+				8851494E2E881D9400635DEC /* url_launcher_ios.xcframework in Frameworks */,
+				885149422E881D9400635DEC /* path_provider_foundation.xcframework in Frameworks */,
+				8851493E2E881D9300635DEC /* nanopb.xcframework in Frameworks */,
+				886400562E90CAD5002CEA49 /* StoreKit.framework in Frameworks */,
+				885163912E897C1E00F7D39B /* FirebaseAnalytics.xcframework in Frameworks */,
+				885163802E88C8D400F7D39B /* FirebaseCrashlytics.xcframework in Frameworks */,
+				885149502E881D9400635DEC /* vibration.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885147FA2E880AD800635DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885148042E880AD800635DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885147DE2E880AD700635DEC = {
+			isa = PBXGroup;
+			children = (
+				885147E92E880AD800635DEC /* playsoutsdkdemo */,
+				885148002E880AD800635DEC /* playsoutsdkdemoTests */,
+				8851480A2E880AD800635DEC /* playsoutsdkdemoUITests */,
+				8851481B2E880BC200635DEC /* Frameworks */,
+				885147E82E880AD800635DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885147E82E880AD800635DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885147E72E880AD800635DEC /* playsoutsdkdemo.app */,
+				885147FD2E880AD800635DEC /* playsoutsdkdemoTests.xctest */,
+				885148072E880AD800635DEC /* playsoutsdkdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8851481B2E880BC200635DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886400552E90CAD5002CEA49 /* StoreKit.framework */,
+				885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */,
+				885163932E897DAE00F7D39B /* GoogleAppMeasurement.xcframework */,
+				885163942E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				885163902E897C1E00F7D39B /* FirebaseAnalytics.xcframework */,
+				8851638C2E897A1800F7D39B /* GoogleMobileAds.xcframework */,
+				8851638A2E88DDD400F7D39B /* google_mobile_ads.framework */,
+				885163882E88DD9E00F7D39B /* Google_Mobile_Ads_SDK.framework */,
+				885149572E881EC100635DEC /* libEGL.xcframework */,
+				885149582E881EC100635DEC /* libGLESv2.xcframework */,
+				8851481D2E880BC200635DEC /* App.xcframework */,
+				885148322E880BC300635DEC /* app_links.xcframework */,
+				885148352E880BC300635DEC /* audioplayers_darwin.xcframework */,
+				8851481E2E880BC200635DEC /* device_info_plus.xcframework */,
+				885148262E880BC300635DEC /* FBLPromises.xcframework */,
+				885148332E880BC300635DEC /* firebase_analytics.xcframework */,
+				885148412E880BC300635DEC /* firebase_core.xcframework */,
+				885148212E880BC200635DEC /* firebase_crashlytics.xcframework */,
+				8851483D2E880BC300635DEC /* FirebaseCore.xcframework */,
+				885148312E880BC300635DEC /* FirebaseCoreExtension.xcframework */,
+				885148242E880BC200635DEC /* FirebaseCoreInternal.xcframework */,
+				8851481C2E880BC200635DEC /* FirebaseCrashlytics.xcframework */,
+				885148272E880BC300635DEC /* FirebaseInstallations.xcframework */,
+				885148382E880BC300635DEC /* FirebaseRemoteConfigInterop.xcframework */,
+				885148402E880BC300635DEC /* FirebaseSessions.xcframework */,
+				885148292E880BC300635DEC /* Flutter.xcframework */,
+				885148252E880BC300635DEC /* flutter_image_api.xcframework */,
+				885148222E880BC200635DEC /* flutter_js.xcframework */,
+				8851482A2E880BC300635DEC /* flutter_udid.xcframework */,
+				8851482B2E880BC300635DEC /* flutter_webgl.xcframework */,
+				885148202E880BC200635DEC /* FlutterPluginRegistrant.xcframework */,
+				8851483C2E880BC300635DEC /* google_mobile_ads.xcframework */,
+				8851482C2E880BC300635DEC /* Google_Mobile_Ads_SDK.xcframework */,
+				885148282E880BC300635DEC /* GoogleDataTransport.xcframework */,
+				8851481F2E880BC200635DEC /* GoogleUtilities.xcframework */,
+				8851482D2E880BC300635DEC /* image_picker_ios.xcframework */,
+				885148362E880BC300635DEC /* in_app_purchase_storekit.xcframework */,
+				8851483B2E880BC300635DEC /* nanopb.xcframework */,
+				885148422E880BC300635DEC /* package_info_plus.xcframework */,
+				8851483E2E880BC300635DEC /* path_provider_foundation.xcframework */,
+				8851483F2E880BC300635DEC /* permission_handler_apple.xcframework */,
+				8851483A2E880BC300635DEC /* Promises.xcframework */,
+				885148342E880BC300635DEC /* SAMKeychain.xcframework */,
+				8851482E2E880BC300635DEC /* shared_preferences_foundation.xcframework */,
+				885148372E880BC300635DEC /* sqflite_darwin.xcframework */,
+				885148302E880BC300635DEC /* url_launcher_ios.xcframework */,
+				885148232E880BC200635DEC /* vibration.xcframework */,
+				885148392E880BC300635DEC /* wakelock_plus.xcframework */,
+				8851482F2E880BC300635DEC /* webview_flutter_wkwebview.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885147E62E880AD800635DEC /* playsoutsdkdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885148102E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemo" */;
+			buildPhases = (
+				885147E32E880AD800635DEC /* Sources */,
+				885147E42E880AD800635DEC /* Frameworks */,
+				885147E52E880AD800635DEC /* Resources */,
+				885149562E881D9400635DEC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				885147E92E880AD800635DEC /* playsoutsdkdemo */,
+			);
+			name = playsoutsdkdemo;
+			packageProductDependencies = (
+			);
+			productName = playsoutsdkdemo;
+			productReference = 885147E72E880AD800635DEC /* playsoutsdkdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885147FC2E880AD800635DEC /* playsoutsdkdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885148152E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemoTests" */;
+			buildPhases = (
+				885147F92E880AD800635DEC /* Sources */,
+				885147FA2E880AD800635DEC /* Frameworks */,
+				885147FB2E880AD800635DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885147FF2E880AD800635DEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				885148002E880AD800635DEC /* playsoutsdkdemoTests */,
+			);
+			name = playsoutsdkdemoTests;
+			packageProductDependencies = (
+			);
+			productName = playsoutsdkdemoTests;
+			productReference = 885147FD2E880AD800635DEC /* playsoutsdkdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885148062E880AD800635DEC /* playsoutsdkdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885148182E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemoUITests" */;
+			buildPhases = (
+				885148032E880AD800635DEC /* Sources */,
+				885148042E880AD800635DEC /* Frameworks */,
+				885148052E880AD800635DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885148092E880AD800635DEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8851480A2E880AD800635DEC /* playsoutsdkdemoUITests */,
+			);
+			name = playsoutsdkdemoUITests;
+			packageProductDependencies = (
+			);
+			productName = playsoutsdkdemoUITests;
+			productReference = 885148072E880AD800635DEC /* playsoutsdkdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885147DF2E880AD700635DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					885147E62E880AD800635DEC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					885147FC2E880AD800635DEC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 885147E62E880AD800635DEC;
+					};
+					885148062E880AD800635DEC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 885147E62E880AD800635DEC;
+					};
+				};
+			};
+			buildConfigurationList = 885147E22E880AD700635DEC /* Build configuration list for PBXProject "playsoutsdkdemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885147DE2E880AD700635DEC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 885147E82E880AD800635DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885147E62E880AD800635DEC /* playsoutsdkdemo */,
+				885147FC2E880AD800635DEC /* playsoutsdkdemoTests */,
+				885148062E880AD800635DEC /* playsoutsdkdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885147E52E880AD800635DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885147FB2E880AD800635DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885148052E880AD800635DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885147E32E880AD800635DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885147F92E880AD800635DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885148032E880AD800635DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885147FF2E880AD800635DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885147E62E880AD800635DEC /* playsoutsdkdemo */;
+			targetProxy = 885147FE2E880AD800635DEC /* PBXContainerItemProxy */;
+		};
+		885148092E880AD800635DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885147E62E880AD800635DEC /* playsoutsdkdemo */;
+			targetProxy = 885148082E880AD800635DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		885148112E880AD800635DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../PlaysoutiOSSDK/$(CONFIGURATION)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = playsoutsdkdemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlaysOutSDKDemo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-framework",
+					firebase_core,
+					"-framework",
+					Google_Mobile_Ads_SDK,
+					"-framework",
+					google_mobile_ads,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885148122E880AD800635DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../PlaysoutiOSSDK/$(CONFIGURATION)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = playsoutsdkdemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlaysOutSDKDemo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-framework",
+					firebase_core,
+					"-framework",
+					Google_Mobile_Ads_SDK,
+					"-framework",
+					google_mobile_ads,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		885148132E880AD800635DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		885148142E880AD800635DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885148162E880AD800635DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playsoutsdkdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playsoutsdkdemo";
+			};
+			name = Debug;
+		};
+		885148172E880AD800635DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playsoutsdkdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playsoutsdkdemo";
+			};
+			name = Release;
+		};
+		885148192E880AD800635DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = playsoutsdkdemo;
+			};
+			name = Debug;
+		};
+		8851481A2E880AD800635DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F7K4DA5H3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playsout.playsoutsdkdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = playsoutsdkdemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885147E22E880AD700635DEC /* Build configuration list for PBXProject "playsoutsdkdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885148132E880AD800635DEC /* Debug */,
+				885148142E880AD800635DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885148102E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885148112E880AD800635DEC /* Debug */,
+				885148122E880AD800635DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885148152E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885148162E880AD800635DEC /* Debug */,
+				885148172E880AD800635DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885148182E880AD800635DEC /* Build configuration list for PBXNativeTarget "playsoutsdkdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885148192E880AD800635DEC /* Debug */,
+				8851481A2E880AD800635DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885147DF2E880AD700635DEC /* Project object */;
+}
