@@ -102,10 +102,14 @@ Config frameworks referencing demo:
 Config your MyApp.xcodeproj
 refer to:https://docs.flutter.cn/add-to-app/ios/project-setup
 1.Navigate to the /path/to/MyApp/ directory.
+
 2.Right-click on MyApp.xcodeproj and select Show Package Contents.
+
 3.Open project.pbxproj with Xcode. The file opens in Xcode's text editor. This also locks Project Navigator until you close the text editor.
+
 4.Find the lines that resemble the following text in the /* Begin PBXFileReference section */.
 
+```text
 312885572C1A441C009F74FF /* Flutter.xcframework */ = {
   isa = PBXFileReference;
   expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC";
@@ -121,7 +125,11 @@ refer to:https://docs.flutter.cn/add-to-app/ios/project-setup
   path = Flutter/Release/App.xcframework;
   sourceTree = "<group>";
 };
+```
+
 5.Change the Release text highlighted in the prior step and change it to $(CONFIGURATION). Also wrap the path in quotation marks.
+
+```text
 312885572C1A441C009F74FF /* Flutter.xcframework */ = {
   isa = PBXFileReference;
   expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC";
@@ -137,7 +145,7 @@ refer to:https://docs.flutter.cn/add-to-app/ios/project-setup
   path = "Flutter/$(CONFIGURATION)/App.xcframework";
   sourceTree = "<group>";
 };
-
+```
 
 Add required configurations in Info.plist referencing demo:
 <div align="center">
