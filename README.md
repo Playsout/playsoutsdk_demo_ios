@@ -86,15 +86,15 @@ Before using the Playsout Mini Game Container service, you need to enable the se
 
 Download playsoutsdk(https://github.com/Playsout/PlaysoutiOSSDK), In the Xcode project, navigate to ​​Target > General > Frameworks, Libraries, and Embedded Content​​. You can either:
 1.Click the plus sign (+) to add these frameworks, or
-2.Directly drag these five frameworks into this section.
+2.Directly drag these frameworks into this section.
 <div align="center">
-  <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config1.png?raw=true" alt="config1" />
+  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/frameworks.png?raw=true" alt="config1" />
 </div>
 
 
 Config frameworks referencing demo:
 <div align="center">
-  <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config2.png?raw=true" alt="config2" />
+  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/frameworks_config.png?raw=true" alt="config2" />
 </div>
 
 Add required configurations in AndroidManifest.xml referencing demo:
