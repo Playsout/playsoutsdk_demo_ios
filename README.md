@@ -97,7 +97,7 @@ Config frameworks referencing demo:
   <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/frameworks_config.png?raw=true" alt="config2" />
 </div>
 
-Add required configurations in AndroidManifest.xml referencing demo:
+Add required configurations in Info.plist referencing demo:
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config3.png?raw=true" alt="config3" />
 </div>
