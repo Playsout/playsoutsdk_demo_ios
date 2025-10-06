@@ -3,7 +3,7 @@
 # Playsout SDK Integration
 
 <div align="center">
-  <a href="https://github.com/Playsout/playsoutsdk_demo_android/raw/main/docs/videos/demo.mp4">
+  <a href="https://www.youtube.com/shorts/6T1aV1FHHf0">
     <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/appui1.png" alt="demo video">
   </a>
   <p><strong>[click to view demo video]</strong></p>
