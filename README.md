@@ -147,11 +147,14 @@ Use your admob AD ID to replace arguments(appAdId&gameAdId);"ca-app-pub-39402560
 </div>
 
 ### 6) How to add your admob AD
-1.Register with AdMob, add two ad units, and include two rewarded ads.
+1.Register with AdMob, add two rewarded ad uints.
 2.In Info.plist, add configuration entries for GADApplicationIdentifierand SKAdNetworkItems.
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/info-plist.png?raw=true" alt="config3" />
 </div>
 3.Modify the code to use your rewarded ad ID.
+<div align="center">
+  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/adid.png?raw=true" alt="config3" />
+</div>
 
 
