@@ -160,10 +160,15 @@ Use your admob AD ID to replace arguments(appAdId&gameAdId);"ca-app-pub-39402560
 ### 7) How to add your in app purchase
 In your App Store Connect, add the following consumable in-app purchase items to your app.
 'com.playsout.minigames.gems12', US$0.99
+
 'com.playsout.minigames.gems60', US$4.99
+
 'com.playsout.minigames.gems180', US$14.99
+
 'com.playsout.minigames.gems360', US$29.99
+
 'com.playsout.minigames.gems600', US$49.99
+
 'com.playsout.minigames.gems1200', US$99.99
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/in_app_purchase_items.png?raw=true" alt="config3" />
