@@ -99,7 +99,7 @@ Config frameworks referencing demo:
 
 Add required configurations in Info.plist referencing demo:
 <div align="center">
-  <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config3.png?raw=true" alt="config3" />
+  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/info-plist.png?raw=true" alt="config3" />
 </div>
 
 ### 4) Initialize the Playsout SDK
