@@ -50,7 +50,7 @@ https://docs.flutter.dev/add-to-app/ios
 
 ## 4. Integration
 
-This section explains how to quickly integrate the Playsout Mini Game component into an Android project(iOS integration is similar). You will complete the following key steps and ultimately implement a mini-game feature with a complete UI.
+This section explains how to quickly integrate the Playsout Mini Game component into an iOS project. You will complete the following key steps and ultimately implement a mini-game feature with a complete UI.
 <div align="center">
 
 <table>
@@ -68,15 +68,15 @@ This section explains how to quickly integrate the Playsout Mini Game component 
 
 ### 1) Environment Preparation
 
-Android 5.0(SDK API Level 21) or later.
+XCode 11.0 or later.
 
-Gradle 4.2.1 or later.
+iOS 16 or later.
 
-Physical device running Android 5.0 or later.
+Physical device running iOS 16.0 or later.
 
 ### 2) Enabling Services
 
-Before using the Playsout Mini Game Container service, you need to enable the service for your app(contact business partners to access the control platform). After enabling the service, note down the SDKAppID and SDKSecretKey, which will be used in subsequent steps.
+Before using the Playsout Mini Game Container service, you need to enable the service for your app(contact business partners to access the control platform). After enabling the service, note down the SDKChannelID and SDKSecretKey, which will be used in subsequent steps. You can use test chanelID & SDKKey for testing now.
 
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/channel_key.png?raw=true" alt="channel_key" />
@@ -84,13 +84,15 @@ Before using the Playsout Mini Game Container service, you need to enable the se
 
 ### 3) SDK Import and Configuration
 
-Download playsoutsdk(https://github.com/Playsout/Playsout_sdk_android), add Maven repository configuration in settings.gradle.kts
+Download playsoutsdk(https://github.com/Playsout/PlaysoutiOSSDK), In the Xcode project, navigate to ​​Target > General > Frameworks, Libraries, and Embedded Content​​. You can either:
+1.Click the plus sign (+) to add these frameworks, or
+2.Directly drag these five frameworks into this section.
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config1.png?raw=true" alt="config1" />
 </div>
 
 
-Add SDK library dependency in app/build.gradle.kts
+Config frameworks referencing demo:
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/config2.png?raw=true" alt="config2" />
 </div>
