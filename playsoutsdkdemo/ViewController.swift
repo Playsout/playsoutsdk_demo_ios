@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  playsoutsdkdemo
 //
-//  Created by Jason Zheng on 2025/9/27.
+//  Created by Jason on 2025/9/27.
 //
 
 import UIKit

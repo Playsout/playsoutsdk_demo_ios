@@ -2,7 +2,7 @@
 //  PlaysoutController.swift
 //  playsoutsdkdemo
 //
-//  Created by Jason Zheng on 2025/9/27.
+//  Created by Jason on 2025/9/27.
 //
 
 import UIKit
@@ -29,12 +29,7 @@ class PlaysoutController: FlutterViewController {
             print("exit playsout")
         
         }
-    /// 实例化方法
-        /// - Parameters:
-        ///   - engine: 实例化环境engine
-        ///   - channelName: 要与main.dart中一致,路由channel名
-        ///   - method: 传参的方法名
-        ///   - arguments: 传参的参数内容
+
         init(engine: FlutterEngine, channelName: String = "",method: String = "",arguments:[String: Any]?) {
             super.init(engine: engine, nibName: nil, bundle: nil)
             print("✅ PlaysoutController init")

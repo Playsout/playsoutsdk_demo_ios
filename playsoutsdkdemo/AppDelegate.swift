@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  playsoutsdkdemo
 //
-//  Created by Jason Zheng on 2025/9/27.
+//  Created by Jason on 2025/9/27.
 //
 
 import UIKit
@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         initEngine()
-        //self.window = UIWindow(frame: UIScreen.main.bounds)
-        //self.window?.rootViewController = UINavigationController.init(rootViewController: ViewController())
-        //self.window?.backgroundColor = .white
-        //self.window?.makeKeyAndVisible()
-        
         
         return true
     }
