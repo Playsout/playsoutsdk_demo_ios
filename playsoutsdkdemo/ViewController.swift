@@ -91,17 +91,15 @@ class ViewController: UIViewController {
         }
         
             
-            let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
-            //flutterEngine.viewController = nil
+        let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
         currentBoundViewController?.engine.viewController = nil
-                currentBoundViewController = nil
+        currentBoundViewController = nil
         let flutterViewController = PlaysoutController(engine: flutterEngine, channelName: "com.playsout.minigames", method: "init", arguments: ["appAdId":"ca-app-pub-3940256099942544/1712485313","gameAdId":"ca-app-pub-3940256099942544/1712485313"])
         currentBoundViewController = flutterViewController
-            flutterViewController.hidesBottomBarWhenPushed = true
-            flutterViewController.modalPresentationStyle = .fullScreen
+        flutterViewController.hidesBottomBarWhenPushed = true
+        flutterViewController.modalPresentationStyle = .fullScreen
             
-            let navController = self.navigationController
-
+        let navController = self.navigationController
         navController?.setNavigationBarHidden(true, animated: false)
         navController?.pushViewController(flutterViewController, animated: false)
            

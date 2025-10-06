@@ -76,7 +76,7 @@ Physical device running iOS 16.0 or later.
 
 ### 2) Enabling Services
 
-Before using the Playsout Mini Game Container service, you need to enable the service for your app(contact business partners to access the control platform). After enabling the service, note down the SDKChannelID and SDKSecretKey, which will be used in subsequent steps. You can use test chanelID & SDKKey for testing now.
+Before using the Playsout Mini Game Container service, you need to enable the service for your app(contact business partners to access the control platform). After enabling the service, note down the ChannelID and SDKKey, which will be used in subsequent steps. You can use test chanelID & SDKKey for testing now.
 
 <div align="center">
   <img src="https://github.com/Playsout/playsoutsdk_demo_android/blob/main/docs/images/channel_key.png?raw=true" alt="channel_key" />
@@ -105,31 +105,30 @@ Add required configurations in Info.plist referencing demo:
 ### 4) Initialize the Playsout SDK
 
 Add the following code to your project. Its purpose is to complete the Playsout SDK login by calling relevant interfaces. This step is critical only after successful login can you use Playsout's features.
-```java
-public void onCreate() {
-        super.onCreate();
-        // Instance FlutterEngine ，cache
-        FlutterEngine flutterEngine = new FlutterEngine(this);
-        flutterEngine.getNavigationChannel().setInitialRoute("/home?channel=playsout&sdkkey=123456");
-
-        flutterEngine.getDartExecutor().executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault());
-        FlutterEngineCache.getInstance().put(CacheId.PLAYSOUT_ENGINE_ID, flutterEngine);
+```swift
+    private func initEngine() {
+        //flutterEngine.
+        flutterEngine.run(withEntrypoint: "main", initialRoute: "/home?channel=playsout&sdkkey=eyJ2ZXIiOiJ2MSIsImNoYW5uZWwiOiJwbGF5c291dCIsInBhY2thZ2VuYW1lIjoiIiwiZXhwIjoxNzYwOTY3ODIwfS5zaWc"); //update if sdkkey expire,look log
+        GeneratedPluginRegistrant.register(with: flutterEngine);
     }
 ```
 
 ### 5) Opening the Mini Game Library and Launching Your First Game
 
-To launch the mini-game container in your target Activity, execute the following code:
+To launch the mini-game container in your target ViewController, execute the following code:
 
-```java
-private void launchFlutterActivity() {
-    try {
-        Intent intent = FlutterActivity.withCachedEngine(CacheId.PLAYSOUT_ENGINE_ID).build(context MainActivity.this);
-        startActivity(intent);
-    } catch(Exception e) {
-        handleLaunchError(e);
-    }
-}
+```swift
+        let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
+        currentBoundViewController?.engine.viewController = nil
+        currentBoundViewController = nil
+        let flutterViewController = PlaysoutController(engine: flutterEngine, channelName: "com.playsout.minigames", method: "init", arguments: ["appAdId":"ca-app-pub-3940256099942544/1712485313","gameAdId":"ca-app-pub-3940256099942544/1712485313"])
+        currentBoundViewController = flutterViewController
+        flutterViewController.hidesBottomBarWhenPushed = true
+        flutterViewController.modalPresentationStyle = .fullScreen
+            
+        let navController = self.navigationController
+        navController?.setNavigationBarHidden(true, animated: false)
+        navController?.pushViewController(flutterViewController, animated: false)
 ```
 <div align="center">
 
