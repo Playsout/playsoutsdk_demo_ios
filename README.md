@@ -130,6 +130,7 @@ To launch the mini-game container in your target ViewController, execute the fol
         navController?.setNavigationBarHidden(true, animated: false)
         navController?.pushViewController(flutterViewController, animated: false)
 ```
+Use your admob AD ID to replace arguments(appAdId&gameAdId);"ca-app-pub-3940256099942544/1712485313" is test mode.
 <div align="center">
 
 <table>
