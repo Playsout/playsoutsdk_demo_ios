@@ -85,6 +85,8 @@ Before using the Playsout Mini Game Container service, you need to enable the se
 ### 3) SDK Import and Configuration
 
 Install git&git lfs
+# Make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
 Git clone playsoutsdk(https://github.com/Playsout/PlaysoutiOSSDK), 
 In your Xcode project, navigate to ​​Target > General > Frameworks, Libraries, and Embedded Content​​. You can either:
 1.Click the plus sign (+) to add these frameworks in playsoutsdk, or
