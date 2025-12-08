@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func initEngine() {
         //flutterEngine.
-        flutterEngine.run(withEntrypoint: "main", initialRoute: "/home?channel=playsout&sdkkey=eyJ2ZXIiOiJ2MSIsImNoYW5uZWwiOiJwbGF5c291dCIsInBhY2thZ2VuYW1lIjoiIiwiZXhwIjoxNzYwOTY3ODIwfS5zaWc"); //update if sdkkey expire,look log
+        flutterEngine.run(withEntrypoint: "main", initialRoute: "/home?channel=playsout&sdkkey=eyJ2ZXIiOiJ2MSIsImNoYW5uZWwiOiJwbGF5c291dCIsInBhY2thZ2VuYW1lIjoiIiwiZXhwIjoxNzY3NzY5ODA0fQ==3L"); //update if sdkkey expire,look log
         GeneratedPluginRegistrant.register(with: flutterEngine);
     }
 
