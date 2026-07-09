@@ -90,6 +90,10 @@
 		8851639B2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		885ED98B2E8D708F00D72C4B /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8851638C2E897A1800F7D39B /* GoogleMobileAds.xcframework */; };
 		886400562E90CAD5002CEA49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886400552E90CAD5002CEA49 /* StoreKit.framework */; };
+		886A331A2FFE96350072A3A3 /* KeychainAccess.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886A33192FFE96350072A3A3 /* KeychainAccess.xcframework */; };
+		886A331B2FFE96350072A3A3 /* KeychainAccess.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 886A33192FFE96350072A3A3 /* KeychainAccess.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		886A331D2FFE97DE0072A3A3 /* objective_c.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886A331C2FFE97DE0072A3A3 /* objective_c.xcframework */; };
+		886A331E2FFE97DE0072A3A3 /* objective_c.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 886A331C2FFE97DE0072A3A3 /* objective_c.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +145,7 @@
 				885149372E881D9300635DEC /* GoogleDataTransport.xcframework in Embed Frameworks */,
 				885149112E881D9300635DEC /* FBLPromises.xcframework in Embed Frameworks */,
 				8851492D2E881D9300635DEC /* flutter_webgl.xcframework in Embed Frameworks */,
+				886A331E2FFE97DE0072A3A3 /* objective_c.xcframework in Embed Frameworks */,
 				8851495E2E881FD000635DEC /* libGLESv2.xcframework in Embed Frameworks */,
 				8851495C2E881FCE00635DEC /* libEGL.xcframework in Embed Frameworks */,
 				8851490B2E881D9300635DEC /* App.xcframework in Embed Frameworks */,
@@ -149,6 +154,7 @@
 				8851494D2E881D9400635DEC /* sqflite_darwin.xcframework in Embed Frameworks */,
 				8851494F2E881D9400635DEC /* url_launcher_ios.xcframework in Embed Frameworks */,
 				885149432E881D9400635DEC /* path_provider_foundation.xcframework in Embed Frameworks */,
+				886A331B2FFE96350072A3A3 /* KeychainAccess.xcframework in Embed Frameworks */,
 				8851493F2E881D9400635DEC /* nanopb.xcframework in Embed Frameworks */,
 				8851639B2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Embed Frameworks */,
 				885149512E881D9400635DEC /* vibration.xcframework in Embed Frameworks */,
@@ -211,6 +217,8 @@
 		885163942E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/GoogleAppMeasurementIdentitySupport.xcframework"; sourceTree = "<group>"; };
 		885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/UserMessagingPlatform.xcframework"; sourceTree = "<group>"; };
 		886400552E90CAD5002CEA49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		886A33192FFE96350072A3A3 /* KeychainAccess.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:5F7K4DA5H3:PLAYSOUT TECHNOLOGY DMCC"; lastKnownFileType = wrapper.xcframework; name = KeychainAccess.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/KeychainAccess.xcframework"; sourceTree = "<group>"; };
+		886A331C2FFE97DE0072A3A3 /* objective_c.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:5F7K4DA5H3:PLAYSOUT TECHNOLOGY DMCC"; lastKnownFileType = wrapper.xcframework; name = objective_c.xcframework; path = "../PlaysoutiOSSDK/$(CONFIGURATION)/objective_c.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -280,6 +288,8 @@
 				8851639A2E897E0B00F7D39B /* UserMessagingPlatform.xcframework in Frameworks */,
 				885149122E881D9300635DEC /* firebase_analytics.xcframework in Frameworks */,
 				885149102E881D9300635DEC /* FBLPromises.xcframework in Frameworks */,
+				886A331D2FFE97DE0072A3A3 /* objective_c.xcframework in Frameworks */,
+				886A331A2FFE96350072A3A3 /* KeychainAccess.xcframework in Frameworks */,
 				885163952E897DAE00F7D39B /* GoogleAppMeasurement.xcframework in Frameworks */,
 				885163972E897DAE00F7D39B /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
 				8851637E2E88C8C400F7D39B /* FirebaseCoreInternal.xcframework in Frameworks */,
@@ -340,6 +350,8 @@
 		8851481B2E880BC200635DEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				886A331C2FFE97DE0072A3A3 /* objective_c.xcframework */,
+				886A33192FFE96350072A3A3 /* KeychainAccess.xcframework */,
 				886400552E90CAD5002CEA49 /* StoreKit.framework */,
 				885163992E897E0B00F7D39B /* UserMessagingPlatform.xcframework */,
 				885163932E897DAE00F7D39B /* GoogleAppMeasurement.xcframework */,
