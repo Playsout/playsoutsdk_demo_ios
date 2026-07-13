@@ -86,68 +86,11 @@ Before using the Playsout Mini Game Container service, you need to enable the se
 
 Install git&git lfs
 # Make sure you have git-lfs installed (https://git-lfs.com)
-git lfs install
-Git clone playsoutsdk(https://github.com/Playsout/PlaysoutiOSSDK), 
-In your Xcode project, navigate to ​​Target > General > Frameworks, Libraries, and Embedded Content​​. You can either:
-1.Click the plus sign (+) to add these frameworks in playsoutsdk, or
-2.Directly drag these frameworks into this section.
-<div align="center">
-  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/images/frameworks.png?raw=true" alt="config1" />
-</div>
 
-
-Config frameworks referencing demo:
-<div align="center">
-  <img src="https://github.com/Playsout/playsoutsdk_demo_ios/blob/main/Doc/images/frameworks_config.png?raw=true" alt="config2" />
-</div>
-
-Config your MyApp.xcodeproj
-refer to:https://docs.flutter.cn/add-to-app/ios/project-setup
-1.Navigate to the /path/to/MyApp/ directory.
-
-2.Right-click on MyApp.xcodeproj and select Show Package Contents.
-
-3.Open project.pbxproj with Xcode. The file opens in Xcode's text editor. This also locks Project Navigator until you close the text editor.
-
-4.Find the lines that resemble the following text in the /* Begin PBXFileReference section */.
-
-```text
-312885572C1A441C009F74FF /* Flutter.xcframework */ = {
-  isa = PBXFileReference;
-  expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC";
-  lastKnownFileType = wrapper.xcframework;
-  name = Flutter.xcframework;
-  path = Flutter/Release/Flutter.xcframework;
-  sourceTree = "<group>";
-};
-312885582C1A441C009F74FF /* App.xcframework */ = {
-  isa = PBXFileReference;
-  lastKnownFileType = wrapper.xcframework;
-  name = App.xcframework;
-  path = Flutter/Release/App.xcframework;
-  sourceTree = "<group>";
-};
-```
-
-5.Change the Release text highlighted in the prior step and change it to $(CONFIGURATION). Also wrap the path in quotation marks.
-
-```text
-312885572C1A441C009F74FF /* Flutter.xcframework */ = {
-  isa = PBXFileReference;
-  expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC";
-  lastKnownFileType = wrapper.xcframework;
-  name = Flutter.xcframework;
-  path = "Flutter/$(CONFIGURATION)/Flutter.xcframework";
-  sourceTree = "<group>";
-};
-312885582C1A441C009F74FF /* App.xcframework */ = {
-  isa = PBXFileReference;
-  lastKnownFileType = wrapper.xcframework;
-  name = App.xcframework;
-  path = "Flutter/$(CONFIGURATION)/App.xcframework";
-  sourceTree = "<group>";
-};
-```
+We have released iOS SDK through SPM.Download playsoutsdk(https://github.com/Playsout/PlaysoutiOSSDK) or using https://github.com/Playsout/PlaysoutiOSSDK.git  in project package dependencies.
+ There are two ways to add the SDK:
+1. Download the latest SDK from GitHub and add it locally.
+2. Obtain the release tag directly from the GitHub address and add it.
 
 Add required configurations in Info.plist referencing demo:
 <div align="center">
