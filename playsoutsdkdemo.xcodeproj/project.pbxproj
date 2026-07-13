@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		886400562E90CAD5002CEA49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886400552E90CAD5002CEA49 /* StoreKit.framework */; };
 		886DDFB83004814B00F99CC1 /* PlaysoutiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 88CE28493000F046003508A9 /* PlaysoutiOSSDK */; };
+		886DDFD330051FA900F99CC1 /* PlaysoutiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 886DDFD230051FA900F99CC1 /* PlaysoutiOSSDK */; };
 		88F105F7300133B200D7DB1B /* PlaysoutiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 88F105F6300133B200D7DB1B /* PlaysoutiOSSDK */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886DDFD330051FA900F99CC1 /* PlaysoutiOSSDK in Frameworks */,
 				886DDFB83004814B00F99CC1 /* PlaysoutiOSSDK in Frameworks */,
 				88F105F7300133B200D7DB1B /* PlaysoutiOSSDK in Frameworks */,
 				886400562E90CAD5002CEA49 /* StoreKit.framework in Frameworks */,
@@ -146,6 +148,7 @@
 			packageProductDependencies = (
 				88CE28493000F046003508A9 /* PlaysoutiOSSDK */,
 				88F105F6300133B200D7DB1B /* PlaysoutiOSSDK */,
+				886DDFD230051FA900F99CC1 /* PlaysoutiOSSDK */,
 			);
 			productName = playsoutsdkdemo;
 			productReference = 885147E72E880AD800635DEC /* playsoutsdkdemo.app */;
@@ -230,6 +233,7 @@
 			mainGroup = 885147DE2E880AD700635DEC;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				886DDFD130051FA900F99CC1 /* XCLocalSwiftPackageReference "../PlaysoutiOSSDK" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 885147E82E880AD800635DEC /* Products */;
@@ -631,7 +635,18 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		886DDFD130051FA900F99CC1 /* XCLocalSwiftPackageReference "../PlaysoutiOSSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../PlaysoutiOSSDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		886DDFD230051FA900F99CC1 /* PlaysoutiOSSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PlaysoutiOSSDK;
+		};
 		88CE28493000F046003508A9 /* PlaysoutiOSSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PlaysoutiOSSDK;
